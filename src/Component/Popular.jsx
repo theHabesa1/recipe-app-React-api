@@ -22,7 +22,7 @@ function Popular() {
   return (
     <div>
                 <Wrapper>
-                    <h3>Popular pic </h3>
+                    <h3>Popular picks </h3>
                     <Splide options={{
                         perPage: 3,
                         arrows: false,
@@ -57,6 +57,11 @@ const Card= styled.div`
     min-height: 15rem;
     border-radius:2rem;
     overflow: hidden;
+    cursor: grab;
+
+    :active{
+        cursor:grabbing;
+    }
 
     img{
         border-radius:2rem;
@@ -85,5 +90,11 @@ const Card= styled.div`
         align-items: center;
     }
 `;
+const Gradient = styled.div`
+ z-index: 3;
+ position : relative;
+
+
+`
 
 export default Popular
