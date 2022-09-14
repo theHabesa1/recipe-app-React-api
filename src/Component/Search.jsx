@@ -35,12 +35,12 @@ function Search() {
 }
 
 const FormStyle = styled.form`
-    margin:1rem 9rem;
-    
+    margin:3rem -2rem;
+
 
     div{
-        width:60%;
-        height:10%;
+        width:90%;
+        height:0%;
         position:relative;
         
     }
@@ -54,6 +54,7 @@ const FormStyle = styled.form`
         border-radius:1rem;
         outline:none;
         width:100%;
+        height:20%;
     }
 
     svg {
